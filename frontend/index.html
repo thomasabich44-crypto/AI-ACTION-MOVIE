@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Action Movie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>🎬 AI ACTION MOVIE</h1>
+        <p>Create your own cinematic action scene</p>
+    </header>
+
+    <main>
+
+        <section class="upload-section">
+
+            <h2>Upload Your Photo</h2>
+
+            <input 
+                type="file" 
+                id="photoInput" 
+                accept="image/*"
+            >
+
+            <div id="preview">
+                <p>Your photo preview will appear here</p>
+            </div>
+
+        </section>
+
+        <section class="action-section">
+
+            <h2>Choose Your Action</h2>
+
+            <select id="actionSelect">
+                <option value="fight">🥊 Fight Scene</option>
+                <option value="running">🏃 Running</option>
+                <option value="jumping">🤸 Jumping</option>
+                <option value="martial-arts">🥋 Martial Arts</option>
+                <option value="car-chase">🚗 Car Chase</option>
+            </select>
+
+            <h2>Choose Movie Style</h2>
+
+            <select id="styleSelect">
+                <option value="cinematic">🎬 Cinematic</option>
+                <option value="hollywood">⭐ Hollywood</option>
+                <option value="futuristic">🤖 Futuristic</option>
+                <option value="military">🎖️ Military</option>
+            </select>
+
+            <button id="generateBtn">
+                🚀 GENERATE ACTION SCENE
+            </button>
+
+        </section>
+
+        <section class="result-section">
+
+            <h2>Your Result</h2>
+
+            <div id="result">
+                <p>Your generated action scene will appear here.</p>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>AI Action Movie © 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

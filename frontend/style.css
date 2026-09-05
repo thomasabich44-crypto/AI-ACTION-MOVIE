@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #080808;
+    color: white;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 45px 20px;
+    background: linear-gradient(135deg, #111, #222);
+    border-bottom: 1px solid #444;
+}
+
+header h1 {
+    font-size: 42px;
+    letter-spacing: 3px;
+}
+
+header p {
+    margin-top: 12px;
+    color: #aaa;
+    font-size: 18px;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 40px auto;
+    display: grid;
+    gap: 25px;
+}
+
+section {
+    background: #151515;
+    padding: 30px;
+    border-radius: 15px;
+    border: 1px solid #333;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    background: #222;
+    color: white;
+    border-radius: 8px;
+    border: 1px solid #444;
+}
+
+#preview {
+    margin-top: 20px;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #0d0d0d;
+    border: 2px dashed #444;
+    border-radius: 10px;
+    color: #777;
+}
+
+#preview img {
+    max-width: 100%;
+    max-height: 350px;
+    border-radius: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 25px;
+    background: #222;
+    color: white;
+    border: 1px solid #444;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 17px;
+    background: #e50914;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff1a25;
+    transform: scale(1.01);
+}
+
+#result {
+    min-height: 200px;
+    background: #0d0d0d;
+    border: 2px dashed #444;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #777;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    color: #666;
+}
